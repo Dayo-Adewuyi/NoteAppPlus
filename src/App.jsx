@@ -51,7 +51,10 @@ export default function App() {
             return note.id === currentNoteId
         }) || notes[0]
     }
-    
+    setTimeout(function () {
+   alert("Just checking to see if you're on track!");
+}, 1800000);
+
     return (
         <main>
         {
